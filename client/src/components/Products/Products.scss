@@ -1,0 +1,37 @@
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin: 15px;
+    .product-item{
+        width: 24%;
+        img{
+            width: 100%;
+            height: auto;
+            padding: 3px;
+            border: 1px solid #c0c0c0;
+        }
+
+        .product-desc{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .AddToCart-Btn{
+            display: block;
+            border: none;
+            background-color: #2a5ea5;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 6px;
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

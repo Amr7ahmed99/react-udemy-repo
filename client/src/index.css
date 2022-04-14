@@ -16,8 +16,17 @@
 }
 
 
-
 main{
-grid-area: main;
+  grid-area: main;
+  display: flex;
+  justify-content: space-between;
 }
+
+
+
+.filter-wrapper{
+  width: 30%;
+  background-color: blue;
+}
+
 
