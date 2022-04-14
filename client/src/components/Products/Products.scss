@@ -33,5 +33,28 @@
     }
 }
 
+.productModal{
+    display: flex;
+    flex-direction: column;
+    img{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+    p, span{
+        color: #2a5ea5;
+        font-size: 30px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .close-Icon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 40px;
+    }
+    
+}
+
 
 
