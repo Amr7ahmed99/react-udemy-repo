@@ -8,8 +8,8 @@ const sass= gulpSass(require('sass'));
 //     gulp.src('src/components/**/*.scss').pipe(sass()).pipe(gulp.dest('src/css'));
 // });
 
-gulp.task('watch', function(){
-    gulp.watch('src/components/**/*.scss', function(){
+gulp.task('watch', async function(){
+    gulp.watch('src/components/**/*.scss', async function(){
         gulp.src('src/components/**/*.scss').pipe(sass()).pipe(gulp.dest('src/css'));
     });
 });
