@@ -12,12 +12,14 @@
         padding: 10px;
         margin-bottom: 20px;
     }
+    >div{
+        padding: 10px 5px;
+    }
 
     .products-Num{
         padding-left: 10px;
     }
     .filter-size{
-        padding:10px;
         select{
             margin: 5px 0;
             padding: 10px;
@@ -27,7 +29,6 @@
     }
 
     .filter-order{
-        padding:10px;
         select{
             margin: 5px 0;
             padding: 10px;
