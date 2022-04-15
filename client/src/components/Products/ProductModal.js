@@ -6,7 +6,7 @@ function ProductModal(props) {
   return (
     <Modal className="productModal" isOpen= {product} onRequestClose= {closeModal}>
         <span className= "close-Icon" onClick={closeModal}> &times;</span>
-        <img src={product.imageUrl} alt="" />
+        <img src={product.imageUrl} alt={ product.title} />
         <p>{product.title}</p>
         <p>{product.desc}</p>
         <span>${product.price}</span>
@@ -14,4 +14,4 @@ function ProductModal(props) {
   )
 }
 
-export default ProductModal
+export default ProductModal;
